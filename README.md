@@ -1,6 +1,7 @@
 # RPA com Python
 
-- O que é RPA?
+- RPA (Robotic Process Automation)
+
 - Biblioteca usada:
     - pip install pyautogui
     - https://pyautogui.readthedocs.io/en/latest/
