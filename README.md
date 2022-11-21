@@ -1,9 +1,6 @@
 # RPA com Python
 
 - O que é RPA?
-- Por que isso é diferente de Selenium/Web-Scraping e do que vimos até agora?
-    - Pontos Positivos
-    - Pontos Negativos
 - Biblioteca usada:
     - pip install pyautogui
     - https://pyautogui.readthedocs.io/en/latest/
@@ -11,3 +8,14 @@
         - Para resolver problemas de caracteres especiais vamos usar um macete com a pyperclip
         
 - Link com um resumo dos principais comandos: https://pyautogui.readthedocs.io/en/latest/quickstart.html
+
+
+## Desafio
+
+- Vamos automatizar a extração de informações de um sistema e envio de um relatório por e-mail
+- No nosso caso, para todo mundo conseguir fazer o mesmo programa, o nosso "sistema" vai ser o Gmail, mas o mesmo processo pode ser feito com qualquer programa do seu computador e qualquer sistema
+    - Passo 1: Entrar no sistema (entrar no Gmail)
+    - Passo 2: Entrar em uma aba específica do sistema onde tem o nosso relatório (Aba Contatos)
+    - Passo 3: Exportar o Relatório (Exportar Contatos)
+    - Passo 4: Pegar o relatório exportado, tratar e pegar as informações que queremos
+    - Passo 5: Preencher/Atualizar informações do sistema (No nosso caso, criar um e-mail e enviar)
